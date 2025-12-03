@@ -18,9 +18,8 @@
 
 .esquina{
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .textos{
@@ -45,14 +44,14 @@
 }
 
 .texto h1{
-    font-size: 55px;
+    font-size: 70px;
     font-weight: bold;
     line-height: 1.2;
 }
 
 .texto p{
     margin: 25px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #e5e5e5;
     line-height: 1.5;
 }
@@ -83,7 +82,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 68%; 
+    height: 65%; 
     background: rgb(42, 235, 170); 
     z-index: -1; 
     clip-path: polygon(0 40%, 100% 10%, 100% 100%, 0% 100%);
@@ -109,12 +108,16 @@
     width: 250px;
 }
 
+
 .punto h3{
-    font-size: 1.5rem;
+    font-size: 28px;
 }
 
-.feature-1,
-.feature-2{
+.punto p{
+    font-size: 20px;
+}
+
+.feature-1, .feature-2{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,19 +132,36 @@
     width: 40%; 
 }
 
+.f1-text h2{
+    font-size: 45px;
+}
+
+.f1-text p{
+    font-size: 20px;
+}
+
+.f2-text h2{
+    font-size: 45px;
+}
+
+.f2-text p{
+    font-size: 20px;
+}
+
 .btn2{
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 25px;
+    padding: 15px 30px;
     background-color: #021630;
     color: white;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .pricing-title{
     text-align: center;
     margin-top: 80px;
+    font-size: 35px;
 }
 
 .pricing{
@@ -155,8 +175,6 @@
     width: 200px;
     text-align: center;
     padding: 30px;
-    border-radius: 10px;
-    background: #f1f1f1;
 }
 
 .price-box .boton-normal{
