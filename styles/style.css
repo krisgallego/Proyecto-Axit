@@ -140,3 +140,28 @@
     text-decoration: none;
     border-radius: 20px;
 }
+
+.pricing-title{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.pricing{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 0;
+}
+ 
+.price-box{
+    width: 200px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+
+.price-box.active{
+    background: #0d1b3d;
+    color: white;
+}
