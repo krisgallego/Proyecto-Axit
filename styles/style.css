@@ -109,10 +109,8 @@
     width: 250px;
 }
 
-
-.punto img{
-    width: 80px;
-    margin-bottom: 15px;
+.punto h3{
+    font-size: 1.5rem;
 }
 
 .feature-1,
@@ -161,7 +159,37 @@
     background: #f1f1f1;
 }
 
+.price-box .boton-normal{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: white;
+    color: #0d1b3d;
+    border: 2px solid #0d1b3d;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 .price-box.active{
     background: #0d1b3d;
     color: white;
 }
+
+.price-box.active .boton-color{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: rgb(42, 235, 170); 
+    color: #0d1b3d;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 0;
+    background-color: #e6e6e6;
+}
+
