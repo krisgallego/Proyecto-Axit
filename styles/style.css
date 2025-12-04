@@ -117,7 +117,7 @@
     font-size: 20px;
 }
 
-.feature-1, .feature-2{
+.parte-1, .parte-2{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,27 +128,27 @@
     width: 450px;
 }
 
-.f1-text, .f2-text{
+.texto-1, .texto-2{
     width: 40%; 
 }
 
-.f1-text h2{
+.texto-1 h2{
     font-size: 45px;
 }
 
-.f1-text p{
+.texto-1 p{
     font-size: 20px;
 }
 
-.f2-text h2{
+.texto-2 h2{
     font-size: 45px;
 }
 
-.f2-text p{
+.texto-2 p{
     font-size: 20px;
 }
 
-.btn2{
+.boton-2{
     display: inline-block;
     margin-top: 20px;
     padding: 15px 30px;
@@ -158,26 +158,26 @@
     border-radius: 25px;
 }
 
-.pricing-title{
+.parte-titulo{
     text-align: center;
     margin-top: 80px;
     font-size: 35px;
 }
 
-.pricing{
+.partes{
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 60px 0;
 }
  
-.price-box{
+.parte-normal{
     width: 200px;
     text-align: center;
     padding: 30px;
 }
 
-.price-box .boton-normal{
+.parte-normal .boton-normal{
     display: inline-block;
     margin-top: 20px;
     padding: 10px 25px;
@@ -188,12 +188,12 @@
     border-radius: 20px;
 }
 
-.price-box.active{
+.parte-color{
     background: #0d1b3d;
     color: white;
 }
 
-.price-box.active .boton-color{
+.parte-color .boton-color{
     display: inline-block;
     margin-top: 20px;
     padding: 10px 25px;
@@ -203,7 +203,7 @@
     border-radius: 20px;
 }
 
-.clients{
+.logos{
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -211,3 +211,51 @@
     background-color: #e6e6e6;
 }
 
+.contacto{
+    background-size: cover;
+    padding: 80px 8%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.contacto-info{
+    width: 40%;
+}
+
+.contacto-info h2{
+    font-size: 45px;
+}
+
+.cuadros{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cuadros input,
+.cuadros textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+.cuadros textarea{ height: 120px; }
+
+.cuadros .btn{
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+.cuadros .boton-largo{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: rgb(42, 235, 170); 
+    color: #0d1b3d;
+    text-decoration: none;
+    border-radius: 20px;
+}
