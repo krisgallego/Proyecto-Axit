@@ -384,3 +384,197 @@ ul{
     width: 25px;
     margin-left: 10px;  
 }
+
+@media (max-width:1279px){
+    .texto{
+        width: 50%;
+    }
+
+    .texto h1{
+        font-size: 60px;
+    }
+
+    .feature-img{
+        width: 380px;
+    }
+
+    .texto-1, .texto-2{
+        width: 45%;
+    }
+
+    .contacto-info,
+    .cuadros{
+        width: 48%;
+    }
+}
+
+@media (max-width:920px){
+    .inicio{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .contenido{
+        padding-left: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .texto{
+        width: 80%;
+    }
+
+    .texto h1{
+        font-size: 52px;
+    }
+
+    .puntos{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .parte-1, .parte-2{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .texto-1, .texto-2{
+        width: 90%;
+    }
+
+    .feature-img{
+        width: 320px;
+    }
+
+    .partes{
+        flex-wrap: wrap;
+    }
+
+    .logos{
+        flex-wrap: wrap;
+    }
+
+    .contacto{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .contacto-info,
+    .cuadros{
+        width: 90%;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px){
+    .texto h1{
+        font-size: 42px;
+    }
+
+    .texto p{
+        font-size: 18px;
+    }
+
+    .puntos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .punto{
+        width: 90%;
+    }
+
+    .feature-img{
+        width: 280px;
+    }
+
+    .parte-normal,
+    .parte-color{
+        width: 90%;
+        height: auto;
+    }
+
+    .logos{
+        gap: 30px;
+    }
+
+    .cuadros .puntos{
+        flex-direction: column;
+    }
+
+    .cuadros .puntos .texto{
+        width: 100%;
+    }
+}
+
+@media (max-width:480px){
+    .logo{
+        width: 80px;
+    }
+
+    .esquina{
+        font-size: 18px;
+    }
+
+    .texto{
+        width: 95%;
+    }
+
+    .texto h1{
+        font-size: 32px;
+    }
+
+    .texto p{
+        font-size: 16px;
+    }
+
+    .boton{
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+    .puntos-titulo,
+    .parte-titulo{
+        font-size: 26px;
+    }
+
+    .texto-1 h2,
+    .texto-2 h2,
+    .contacto-info h2{
+        font-size: 30px;
+    }
+
+    .texto-1 p,
+    .texto-2 p{
+        font-size: 16px;
+    }
+
+    .feature-img{
+        width: 220px;
+    }
+
+    .h2-h6 .num{
+        font-size: 42px;
+    }
+
+    .contacto{
+        padding: 60px 5%;
+    }
+
+    .footer{
+        font-size: 14px;
+    }
+
+    .redes img{
+        width: 20px;
+    }
+}
