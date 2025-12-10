@@ -167,40 +167,116 @@
 .partes{
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 60px 0;
-}
- 
-.parte-normal{
-    width: 200px;
-    text-align: center;
-    padding: 30px;
+    gap: 40px;
+    padding: 70px 0;
 }
 
-.parte-normal .boton-normal{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 25px;
-    background-color: white;
-    color: #0d1b3d;
-    border: 2px solid #0d1b3d;
-    text-decoration: none;
-    border-radius: 20px;
+.parte-normal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 420px;
 }
 
 .parte-color{
-    background: #0d1b3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    padding: 45px 25px;
+    border-radius: 5px;
+    background-color: rgb(21, 21, 75);
+    height: 450px;
+}
+
+.parte-normal h3{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.parte-color h3{
+    font-size: 14px;
+    letter-spacing: 1px;
     color: white;
 }
 
+.h2-h6{
+    display: flex;
+    align-items: flex-start;
+}
+
+.h2-h6 .precio{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.h2-h6 .num{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 6px;
+}
+
+.h2-h6 .mon{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+/* COLORES */
+.parte-normal .precio,
+.parte-normal .num,
+.parte-normal .mon{
+    color: #000;
+}
+
+.parte-color .precio,
+.parte-color .num,
+.parte-color .mon{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.parte-normal ul li{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.parte-color ul li{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400px;
+}
+
+.parte-normal .boton-normal{
+    padding: 10px 28px;
+    background: white;
+    color: #0d1b3d;
+    border: 2px solid #0d1b3d;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
 .parte-color .boton-color{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 25px;
-    background: rgb(42, 235, 170); 
+    padding: 10px 28px;
+    background: rgb(42, 235, 170);
     color: #0d1b3d;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 25px;
+    font-weight: bold;
 }
 
 .logos{
@@ -234,28 +310,77 @@
     gap: 15px;
 }
 
-.cuadros input,
-.cuadros textarea{
-    width: 100%;
-    padding: 12px;
-    border-radius: 6px;
-    border: none;
+.cuadros{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.cuadros textarea{ height: 120px; }
+.cuadros .puntos{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
 
-.cuadros .btn{
-    width: 150px;
-    border: none;
-    cursor: pointer;
+.cuadros .puntos .texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cuadros h3{
+    color: aquamarine;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cuadros input{
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.cuadros .message{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cuadros textarea{
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    border-radius: 6px;
+    padding: 12px 15px;
+    font-size: 15px;
+    color: white;
 }
 
 .cuadros .boton-largo{
-    display: inline-block;
     margin-top: 20px;
     padding: 10px 25px;
     background: rgb(42, 235, 170); 
     color: #0d1b3d;
     text-decoration: none;
     border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    background: #131d3d;
+    color: white;
+    padding: 2% 10%;
+    justify-content: space-between;
+}
+
+.redes img{
+    width: 25px;
+    margin-left: 10px;  
 }
